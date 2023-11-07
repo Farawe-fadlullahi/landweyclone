@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(243,243,243);
+}
+
+p[a]{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+}
+p[aa]{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    width: 163px;
+}
+p[aa]:hover{
+    color: rgb(250,100,0);
+}
+div[general]{
+    width: 85%;
+    height: 100%;
+    background-color: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+}
+nav[a]{
+    width: 80%;
+    height: 13vh;
+    background-color: #ffffff;
+    margin: 0 0 0 130px;
+    position: fixed;
+    display: flex;
+    z-index: 0;
+    border-bottom:2px solid #f3f3f3;
+}
+img[a]{
+    width: 180px;
+}
+header[a]{
+    display: flex;
+    align-items: center;
+    line-height: 10px;
+    font-family: sans-serif;
+    width: 26%;
+    position: fixed;
+    z-index: 2;
+    margin: 40px 0 0 580px;
+    justify-content: space-tween;
+}
+section[sub]{
+    background-color: #ffffff;
+    line-height: 30px;
+    display: none;
+    width: 300px;
+    padding: 10px;
+}
+section[a]:hover section[sub]{
+    display: block;
+    z-index: 2;
+    background-color:#ffffff ;
+    border: 1px solid GRAY;
+    width: 200px;
+    margin: 10px 20px 0 0px;
+    border-top: 4px solid #f1ceb8;
+}
+section[a]{
+   position: fixed;
+    z-index: 2;
+    width: 60px;
+    height: 25px;
+    margin: 40px 0 0 950px;
+}
+ button[a]{
+    width: 130px;
+    position: fixed;
+    z-index: 2;
+    border: 0;
+    margin: 20px 0 0 1020px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(250,100,0) ;
+    border-radius:7px ;
+    color: white;
+    height: 50px;
+}
+button p{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+section[drop]{
+    position: relative;
+}
+section[down]{
+    position: absolute;
+    background-color: #ffffff;
+    top: -10px;
+    right: 201px;
+    width: 200px;
+    display: none;
+    border: 1px solid gray;
+    padding: 10px;
+    border-top: 4px solid #f1ceb8;
+
+}
+section[drop]:hover section[down]{
+    display: block;
+}
+div[inner]{
+    padding: 20% 0 0 0 ;
+    text-align: center;
+    width: 85%;
+    height:215vh;
+    margin: 0 0 0 82px;
+
+}
+span[a]{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+p[b]{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+img[b]{
+    width: 450px;
+    height: 450px;
+    border-top-left-radius:18px ;
+    border-top-right-radius:18px ;
+}
+div[bigger]{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first{
+    background-color: #f5f5f5;
+    height: 165vh;
+    width: 450px;
+    border-radius: 18px;
+    border: 0;
+}
+.second{
+    background-color: #f5f5f5;
+    height: 165vh;
+    width: 450px;
+    border-radius: 18px;
+    border: 0;
+}
+p[c]{
+    font-weight: 600;
+    font-size: 23px;
+    font-family: sans-serif;
+    margin: 30px 136px 0 0;
+}
+section[c]{
+    display: block;
+    line-height: 14px;
+}
+aside[c]{
+    width:fit-content;
+    background-color:rgb(250,100,0) ;
+    height:fit-content;
+    color: white;
+    padding: 7px;
+    margin: 0 0 0 20px;
+}
+span[b]{
+    font-size:15px ;
+    font-family:sans-serif ;
+    font-weight:600 ;
+    text-align: left;
+}
+div[img]{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+    margin: 100px 0 0 40px;
+}
+section img{
+    width: 50px;
+}
+p[img]{
+    font-family: sans-serif;
+    font: 500;
+    font-size: small;
+}
+div[pic]{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    overflow-x: scroll ;
+    overflow-y: hidden;
+}
+div[pic] img{
+    display: flex;
+    width: 100px;
+    margin: 20px 0 0 40px;
+    border-radius: 5px;
+}
+div[pic]::-webkit-scrollbar{
+    height: 10px;
+    background-color: gray;
+}
+div[pic]::-webkit-scrollbar-thumb{
+    width: 40%;
+    background-color: black;
+    border-radius: 40px;
+}
+button[end]{
+    width: 120px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50px;
+}
+button[end]{
+    font-size: larger;
+    font-family: sans-serif;
+    color: white;
+    background-color: #fa6400;
+    border: 0;
+}
+header[end]{
+    margin:0 0 0 500px;
+    font-size: 12px;
+    font-family:sans-serif ;
+    color: RGB(128, 128, 128);
+    padding: 70px 0 0 0;
+}
+div[icon]{
+    background-color: #ffffff;
+    width:50px ;
+    height: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    justify-content: space-evenly;
+    display: block;
+    position: fixed;
+    z-index: 3;
+    bottom: 200px;
+    right: 20px;
+}
+nav[ww]{
+    position: relaive;
+    border-radius: 100%;
+    background-color: #fa6400;
+    width:30px;
+    height:30px;
+    justify-content: space-evenly;
+    align-items: center;
+    display:flex;
+    margin: 10px 0 0 9px;
+}
+img[z]{
+    width: 20px;
+}
+div[rop]{
+    width: fit-content;
+    position: fixed;
+    z-index: 3;
+    bottom: 10px;
+    right: 150px;
+}
+nav[d]{
+    display:none ;
+    position: absolute;
+    z-index: 3;
+    bottom:40px ;
+    right: -90px;
+}
+div[rop]:focus-within nav[d]{
+    display: block;
+}
+aside[e]{
+    border-top-right-radius:8px ;
+    border-top-left-radius:8px ;
+    background-color:#fa6400 ;
+    padding: 25px;
+    width: fit-content;
+    border: 0;
+}
+aside[e] p{
+    color: #fff8f3;
+    font-family: sans-serif;
+    font-size:13px ;
+}
+aside[f] button{
+    font-family: sans-serif;
+    font-size:13px ;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    border-bottom-left-radius:8px ;
+    border-bottom-right-radius:8px ;
+    border: 0;
+}
+img[q]{
+    margin: 0 220px 0 0;
+    width: 45px;
+}
+span[w]{
+    margin: 0 1px 0 0;
+}
+button[up]{
+margin: 70px 0 0 850px;
+width: 140px;
+height: 30px;
+border-radius: 30px;
+background-color: #fa6400;
+color: white;
+border: 0;
+
+
+}
+nav[d]{
+    position: absolute;
+    bottom:40px ;
+    right: -90px;
+}
+
+
